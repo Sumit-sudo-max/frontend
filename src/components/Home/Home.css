@@ -1,0 +1,148 @@
+nav{
+    background-color:black;
+    display:flex;
+    top:0;
+    z-index: 100;
+}
+
+
+.logo{
+    margin : 0 20px;
+    cursor: pointer;
+}
+
+.search_bar{
+    padding-top: 21px;
+    flex:3;
+    text-align:center;
+}
+
+.search_input{
+    width:25rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.search_icon{
+    padding: 5px;
+    background-color: #63b8e5;
+    border-radius: 5px;
+    position:absolute;
+}
+
+.list{
+    display: flex;
+    flex:1;
+    list-style:none;
+    margin: auto 0;
+}
+
+.list li{
+    margin: 0 2px;
+}
+
+.list li a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+.list ol li a:hover{
+    background:white;
+    color: #0a5071;
+}
+
+.sign{
+    padding: 0.5px;
+    border-radius: 5px;
+    position:relative;
+}
+
+.sign:hover{
+    cursor: pointer;
+}
+
+
+
+/* Footer css */
+footer {
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+.leftFooter {
+    width: 20%;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+  }
+
+.leftFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1vmax;
+    font-size: 0.8rem;
+  }
+
+.leftFooter > p {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+.leftFooter > img {
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+  }
+
+.midFooter {
+    width: 60%;
+    text-align: center;
+  }
+  
+  .midFooter > h1 {
+    font-size: 4vmax;
+    font-family: "Roboto";
+    color: #eb4034;
+  }
+  .midFooter > p {
+    max-width: 60%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 1vmax auto;
+  }
+  
+  .rightFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter > h4 {
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    text-decoration: underline;
+  }
+  .rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  .rightFooter > a:hover {
+    color: #eb4034;
+  }
+  
+
